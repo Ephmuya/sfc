@@ -1,0 +1,229 @@
+{
+"safMaps":[
+{
+	"parentName": "Network Visualization",
+	"parentId":"0", "parentfa":"0",
+	"domId":"0",
+	"name":"SFC Maps",
+	"mapId":"67e7285222b44d7c902ac21d2d4e7a56",
+	"fa":""
+},
+{
+   "parentName": "Network Visualization",
+   "parentId":"0", "parentfa":"0",
+   "domId":"1",
+   "name":"Active Sites (2G and 3G sites)",
+   "mapId":"4255f25ea47f485e9829680965559299",
+   "fa":""
+},
+{
+   "parentName": "Network Visualization",
+   "domId":"2",
+   "parentId":"0", "parentfa":"0",
+   "name":"Competitor Sites",
+   "mapId":"b324df3d857b4c64b581f837e7570d73",
+   "fa":""
+},
+{
+   "parentName": "Network Visualization",
+   "parentId":"0", "parentfa":"0",
+   "domId":"3",
+   "name":"Consolidated Smart Nominals",
+   "mapId":"2ebd169b4bea43da84773ea4a535c137",
+   "fa":""
+},
+{
+   "parentName": "Network Visualization",
+   "parentId":"0", "parentfa":"0",
+   "domId":"4",
+   "name":"Fibre Sites",
+   "nameid":"fibreSites",
+   "mapId":"ca0a8a96db8f4fc59c6ff67dc7d7cb05",
+   "fa":""
+},
+{
+   "parentName": "Network Visualization",
+   "parentId":"0", "parentfa":"0",
+   "domId":"5",
+   "name":"Planned LTE Sites (and Density)",
+   "mapId":"42d83c71f51446a1868212631b20cb5f",
+   "fa":""
+},
+{
+   "parentName": "Network Visualization",
+   "parentId":"0", "parentfa":"0",
+   "domId":"6",
+   "name":"Coverage: 2G and 3G vs PlannedLTE",
+   "mapId":"b324df3d857b4c64b581f837e7570d73",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"7",
+   "name":"2G Cells",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"8",
+   "name":"3G Cells",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"9",
+   "name":"4G Cells",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"10",
+   "name":"5G Cells",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"11",
+   "name":"Wifi Sites",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"12",
+   "name":"Wifi in Bus(Radio)",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"13",
+   "name":"Connected User License 4G",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"14",
+   "name":"Vendors",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName": "Radio Network Data",
+   "parentId":"1",
+   "domId":"15",
+   "name":"Cellular Expert",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"16",
+   "name":"2G Sites",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"17",
+   "name":"3G Sites",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"18",
+   "name":"4G Sites",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"19",
+   "name":"Vendor",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"20",
+   "name":"FTTH",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"21",
+   "name":"FTTB",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"22",
+   "name":"VSAT Sites",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"23",
+   "name":"Mobile Wifi",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"24",
+   "name":"Dark Fiber",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "domId":"25",
+   "name":"PNMS (NEC)",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"26",
+   "name":"Provision (AVIAT)",
+   "mapId":" ",
+   "fa":""
+},
+{
+   "parentName":"Transmission Data",
+   "parentId":"2",
+   "domId":"27",
+   "name":"SOEM (ERICSSON)",
+   "mapId":" ",
+   "fa":""
+}
+
+]
+}

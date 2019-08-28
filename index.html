@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<link href="./dist/img/safaricom-twaweza.png" rel="icon" type="image/x-icon">
+	<link href="./dist/img/safaricom-twaweza.png" rel="shortcut icon" type="image/x-icon">
+	<title>GIS Dashboard</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link href="dist/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="dist/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="dist/vendor/Ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="dist/css/AdminLTE.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" rel="stylesheet">
+	<link href="https://js.arcgis.com/4.11/esri/themes/light/main.css" rel="stylesheet">
+	<link href="dist/css/skins/skin-black.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" rel="stylesheet">
+</head>
+<body class="hold-transition skin-black sidebar-mini">
+	<div class="wrapper">
+		<header class="main-header">
+			<a class="logo"><!-- mini logo for sidebar mini 50x50 pixels -->
+			 <span class="logo-mini" style="color:#129C4B;"><b>Saf</b></span> <b><!-- logo for regular state and mobile devices -->
+			 <span class="logo-lg"><img height="70vh" src="./dist/img/safaricom.png"></span></b></a> <!-- Header Navbar -->
+			<nav class="navbar navbar-static-top" role="navigation">
+				<b
+      <a  class="sidebar-toggle" data-toggle="push-menu" role="button"><span class="sr-only">Toggle navigation</span></a></b>
+				<div class="pull-left">
+							<ul class="nav navbar-nav">
+						<li class="header">
+							<a class="title"><b>Telecoms GIS&nbsp;&nbsp;|</b><small><span id="mapTitle" style="color:#119C49;">&nbsp;&nbsp;&nbsp;&nbsp;SFC Maps</span></small></a>
+						</li>
+						<li style="list-style: none"></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	</div><!-- Left side column. contains the logo and sidebar -->
+	<aside class="main-sidebar">
+		<section class="themesidebar">
+			<!-- Sidebar Menu -->
+			<ul id="mainList" class="sidebar-menu" data-widget="tree"><br><br></ul><!-- /.sidebar-menu -->
+		</section>
+	</aside><!-- Content Wrapper. Contains page content -->
+	<div id="loading"><img alt="Loading..." id="loading-image" src="./dist/img/loader.gif" width="150px"></div>
+	<div class="hide content-wrapper" id="main">
+		<!-- Main content -->
+		<section class=" content container-fluid" id="viewDiv"></section>
+	</div><!-- /.sidebar -->
+	<script src="dist/vendor/jquery/dist/jquery.min.js"></script>
+	<script src="dist/vendor/jquery-ui/jquery-ui.min.js"></script>
+	<script src="dist/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="dist/js/theme.js"></script>
+
+	<script src="dist/js/jquery.nicescroll.js">	</script>
+	<script>
+	               $(function() {
+	                 $(".main-sidebar").niceScroll(
+	                   {
+	                   cursorborder: "0px",
+	                   autohidemode: false,
+	                   background: "",
+	                   cursorcolor: "#B8C7CE",
+	                   cursoropacitymin: 0,
+	                   cursoropacitymax: 0.2,
+	                   railalign: "left",
+	                 }
+	                 );
+	               });
+	</script>
+	<script src="dist/js/adminlte.min.js">
+	</script>
+	<script>
+
+$(window).on('load', function() {
+		$('#loading').hide();
+		$('#main').removeClass('hide');
+	});
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+	<script src="https://js.arcgis.com/4.11/"></script>
+	<script src="./dist/js/panel.js"></script>
+	<script src="./dist/js/main1.js"></script>
+	
+</body>
+</html>
